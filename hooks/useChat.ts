@@ -8,7 +8,7 @@ type Message = {
   content: string
 }
 
-export function useChat({ api }: { api: string }) {
+export default function useChat({ api }: { api: string }) {
   const [messages, setMessages] = useState<Message[]>([])
   const [input, setInput] = useState('')
   const [isLoading, setIsLoading] = useState(false)

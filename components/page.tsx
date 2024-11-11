@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from 'react'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Card } from "@/components/ui/card"
-import { useChat } from '@/hooks/useChat'
+import useChat from '../hooks/useChat'
 import Image from 'next/image'
 import { Menu, X, Send, ChevronDown } from 'lucide-react'
 
