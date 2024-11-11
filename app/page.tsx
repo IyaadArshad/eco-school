@@ -1,5 +1,3 @@
-export default function Page() {
-    return(
-        <p>Hello World!</p>
-    );
-}
+import { BlockPage } from "@/components/page";
+
+export default BlockPage;
